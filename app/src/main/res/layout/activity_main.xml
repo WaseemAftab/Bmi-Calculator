@@ -127,18 +127,9 @@
                     android:id="@+id/btn_metric"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:onClick="setSystemOfUnits"
                     android:text="@string/metric" />
 
-                <RadioButton
-                    android:id="@+id/btn_imperial"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="8dp"
-                    android:layout_marginLeft="8dp"
-                    android:onClick="setSystemOfUnits"
-                    android:text="@string/imperial"
-                    app:layout_constraintTop_toTopOf="parent" />
+
 
             </RadioGroup>
 
